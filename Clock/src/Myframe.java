@@ -45,10 +45,7 @@ public class Myframe extends JFrame {
 		
 		dateLabel = new JLabel();
 		dateLabel.setFont(new Font("Ink Free",Font.BOLD,25));
-		
-		
-//		time = timeFormat.format(Calendar.getInstance().getTime());
-//		timeLabel.setText(time);
+	
 		
 		this.add(timeLabel);
 		this.add(dayLabel);
@@ -72,9 +69,10 @@ public class Myframe extends JFrame {
 		
 		try {
 		Thread.sleep(1000);
-	}catch (InterruptedException e) {
-		e.printStackTrace();
 	}
-}
+			catch (InterruptedException e) {
+		       e.printStackTrace();
 	}
+      }
+  }
 }
