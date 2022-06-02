@@ -21,7 +21,7 @@ public class Myframe extends JFrame {
 	String date;
 
 	Myframe(){
-		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);       
 		this.setTitle("My Clock Program");
 		this.setLayout(new FlowLayout());
 		this.setSize(350,200);
@@ -29,7 +29,7 @@ public class Myframe extends JFrame {
 		
 
 
-		timeFormat = new SimpleDateFormat("hh:mm:ss  a");
+		timeFormat = new SimpleDateFormat("hh:mm:ss  a");        //constructor
 		dayFormat = new SimpleDateFormat("EEEEE");
 		dateFormat = new SimpleDateFormat("MMMMM dd, yyyy");
 		
